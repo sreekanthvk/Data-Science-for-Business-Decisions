@@ -78,7 +78,8 @@ Cleansing, integrating, and transforming data
 - Correct errors as early as possible
 - Combining data from different data sources
 - Transforming data
-*****
+
+******
 
 <img src="Images/data-cleaning.png" width="2000">
 
@@ -138,12 +139,10 @@ Exploratory Data Analysis
 Modeling building
 ========================================================
 - Major steps
-  +  Selection of a modeling technique and variables to enter in the model
+  +   Selection of a modeling technique and variables to enter in the model
   + Execution of the model
   + Diagnosis and model comparison
-- Model and variable selection
-- Model Execution
-- Model diagnostics and model comparison
+
 
 *****
 <img src="Images/python-sample.png" width="1900">
@@ -201,6 +200,46 @@ The modeling processes
   
 Thank you
 ========================================================
+
+Exploring Data
+========================================================
+* Summary Statistics 
+* Common Issues
+  + Missing values
+  + Invalid values and outliers
+  + Data ranges that are too wide or too narrow
+  + The units of the data
+  
+Visually checking distributions for a single variable
+========================================================
+* Histograms
+* Density plots
+* Bar charts
+* Dot plots
+
+****
+* What is the peak value of the distribution?
+* How many peaks are there in the distribution (unimodality versus bimodality)?
+* How normal (or lognormal) is the data? 
+* How much does the data vary? Is it concentrated in a certain interval or in a cer-
+tain category?
+
+Visualizations for one variable
+========================================================
+
+<img src="Images/graphs.png" width="1900">
+
+Visualizations for two variables
+========================================================
+<img src="Images/graphs2.png" width="1900">
+
+Visualizations for two variables
+========================================================
+<img src="Images/graphs3.png" width="1900">
+
+Visualizations for two variables
+========================================================
+<img src="Images/graphs4.png" width="1900">
 <!-- ![alt text]( =250x) -->
 <!-- Slide With Code -->
 <!-- ======================================================== -->
