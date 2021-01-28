@@ -1,6 +1,17 @@
+?datasets
+library(help = "datasets")
+?iris
+
+iris
+iris3
+
 dim(iris)
 head(iris)
 str(iris)
+
+?is.na
+iris[is.na(iris),]
+
 summary(iris)
 
 hist(iris$Sepal.Length)
@@ -13,3 +24,8 @@ plot(iris$Petal.Length, iris$Petal.Width)
 
 plot(iris$Petal.Length, iris$Petal.Width, col = iris$Species)
 plot(iris$Sepal.Length, iris$Sepal.Width, col = iris$Species)
+
+
+attach(iris)
+plot(Species)
+detach(iris)
