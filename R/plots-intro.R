@@ -3,7 +3,7 @@ library( help = "ISLR")
 library(help = "datasets")
 ?iris
 
-iris
+write.csv(iris, "iris.csv")
 iris3
 
 dim(iris)
