@@ -26,6 +26,8 @@ plot(iris$Sepal.Length)        # plotting numerical values
 plot(iris$Sepal.Length, col = iris$Species) 
 plot(iris$Petal.Length, col = iris$Species)
 
+plot(iris$Species, iris$Petal.Length)  
+
 plot(iris$Petal.Length, iris$Petal.Width)
 
 plot(iris$Petal.Length, iris$Petal.Width, col = iris$Species)
